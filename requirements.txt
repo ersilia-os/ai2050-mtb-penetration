@@ -1,0 +1,4 @@
+pandas
+rdkit
+standardiser
+lazyqsar[descriptors]
