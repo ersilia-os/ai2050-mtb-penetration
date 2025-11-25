@@ -7,7 +7,7 @@ from lazyqsar.qsar import LazyBinaryQSAR
 root = os.path.dirname(os.path.abspath(__file__))
 
 dataset = sys.argv[1]
-models = ["sarathy2016", "janardhan2016", "radchenko2023", "lepori2025_mtb", "lepori2025_msm", "mycpermcheck"]
+models = ["sarathy2016", "janardhan2016", "radchenko2023", "lepori2025_mtb", "lepori2025_msm", "mycpermcheck", "valitalo2016"]
 pred_file = os.path.join(root, "..","data", "raw", f"{dataset}.csv")
 
 df = pd.read_csv(pred_file)
